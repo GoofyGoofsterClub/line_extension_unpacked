@@ -1,1 +1,10 @@
-ewogICJzaWRlYmFyX2FjdGlvbiI6IHsKICAgICJkZWZhdWx0X3RpdGxlIjogIkxJTkUiLAogICAgInVzZV9uYXZpZ2F0aW9uX2JhciI6IGZhbHNlLAogICAgImRlZmF1bHRfcGFnZSI6ICJpbmRleC5odG1sIiwKICAgICJkZWZhdWx0X2ljb24iOiB7CiAgICAgICIxNiI6ICJsaW5lX2xvZ29fMzJ4MzJfb24ucG5nIgogICAgfQogIH0KfQo=
+{
+  "sidebar_action": {
+    "default_title": "LINE",
+    "use_navigation_bar": false,
+    "default_page": "index.html",
+    "default_icon": {
+      "16": "line_logo_32x32_on.png"
+    }
+  }
+}

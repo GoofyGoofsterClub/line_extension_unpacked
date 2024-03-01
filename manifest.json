@@ -1,1 +1,46 @@
-ewoidXBkYXRlX3VybCI6ICJodHRwczovL2NsaWVudHMyLmdvb2dsZS5jb20vc2VydmljZS91cGRhdGUyL2NyeCIsCgogICJuYW1lIjogIkxJTkUiLAogICJkZXNjcmlwdGlvbiI6ICJfX01TR19hcHBEZXNjcmlwdGlvbl9fIiwKICAibWFuaWZlc3RfdmVyc2lvbiI6IDMsCiAgImRlZmF1bHRfbG9jYWxlIjogImVuIiwKICAiYmFja2dyb3VuZCI6IHsKICAgICJzZXJ2aWNlX3dvcmtlciI6ICJiYWNrZ3JvdW5kLmpzIiwKICAgICJ0eXBlIjogIm1vZHVsZSIKICB9LAogICJzYW5kYm94IjogewogICAgInBhZ2VzIjogWwogICAgICAibHRzbVNhbmRib3guaHRtbCIsCiAgICAgICJjcm9wcGVyU2FuZGJveC5odG1sIgogICAgXQogIH0sCiAgImFjdGlvbiI6IHsKICAgICJkZWZhdWx0X3RpdGxlIjogIkxJTkUiLAogICAgImRlZmF1bHRfaWNvbiI6IHsKICAgICAgIjMyIjogImxpbmVfbG9nb180OHg0OF9vZmYucG5nIiwKICAgICAgIjQ4IjogImxpbmVfbG9nb180OHg0OF9vZmYucG5nIiwKICAgICAgIjY0IjogImxpbmVfbG9nb18xMjh4MTI4X29mZi5wbmciLAogICAgICAiOTYiOiAibGluZV9sb2dvXzEyOHgxMjhfb2ZmLnBuZyIsCiAgICAgICIxMjgiOiAibGluZV9sb2dvXzEyOHgxMjhfb2ZmLnBuZyIKICAgIH0KICB9LAogICJpY29ucyI6IHsKICAgICIzMiI6ICJsaW5lX2xvZ29fNDh4NDhfb24ucG5nIiwKICAgICI0OCI6ICJsaW5lX2xvZ29fNDh4NDhfb24ucG5nIiwKICAgICI2NCI6ICJsaW5lX2xvZ29fMTI4eDEyOF9vbi5wbmciLAogICAgIjk2IjogImxpbmVfbG9nb18xMjh4MTI4X29uLnBuZyIsCiAgICAiMTI4IjogImxpbmVfbG9nb18xMjh4MTI4X29uLnBuZyIKICB9LAogICJwZXJtaXNzaW9ucyI6IFsKICAgICJkb3dubG9hZHMiLAogICAgInN0b3JhZ2UiLAogICAgIm5vdGlmaWNhdGlvbnMiLAogICAgInN5c3RlbS5kaXNwbGF5IiwKICAgICJjb29raWVzIgogIF0sCiAgImhvc3RfcGVybWlzc2lvbnMiOiBbCiAgICAiKjovLyovKiIKICBdLAogICJ2ZXJzaW9uIjogIjMuMi4zIgp9
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "name": "LINE",
+  "description": "__MSG_appDescription__",
+  "manifest_version": 3,
+  "default_locale": "en",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "sandbox": {
+    "pages": [
+      "ltsmSandbox.html",
+      "cropperSandbox.html"
+    ]
+  },
+  "action": {
+    "default_title": "LINE",
+    "default_icon": {
+      "32": "line_logo_48x48_off.png",
+      "48": "line_logo_48x48_off.png",
+      "64": "line_logo_128x128_off.png",
+      "96": "line_logo_128x128_off.png",
+      "128": "line_logo_128x128_off.png"
+    }
+  },
+  "icons": {
+    "32": "line_logo_48x48_on.png",
+    "48": "line_logo_48x48_on.png",
+    "64": "line_logo_128x128_on.png",
+    "96": "line_logo_128x128_on.png",
+    "128": "line_logo_128x128_on.png"
+  },
+  "permissions": [
+    "downloads",
+    "storage",
+    "notifications",
+    "system.display",
+    "cookies"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "version": "3.2.3"
+}

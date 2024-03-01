@@ -1,1 +1,6 @@
-PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCIgdmlld0JveD0iMCAwIDIwIDIwIj4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPHBhdGggZD0iTTAgMEgyMFYyMEgweiIvPgogICAgICAgIDxwYXRoIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSIjQzhDOEM4IiBzdHJva2UtbGluZWNhcD0ic3F1YXJlIiBzdHJva2Utd2lkdGg9IjEuNCIgZD0iTTcgMTFMNyA1IDEzIDUiIHRyYW5zZm9ybT0icm90YXRlKC0xMzUgMTAgOCkiLz4KICAgIDwvZz4KPC9zdmc+Cg==
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0H20V20H0z"/>
+        <path fill-rule="nonzero" stroke="#C8C8C8" stroke-linecap="square" stroke-width="1.4" d="M7 11L7 5 13 5" transform="rotate(-135 10 8)"/>
+    </g>
+</svg>

@@ -1,1 +1,6 @@
-ewogICJhcHBEZXNjcmlwdGlvbiIgOiB7CiAgICAibWVzc2FnZSI6ICJGcmVlIG1lc3NhZ2luZyBhbnkgdGltZSwgYW55d2hlcmUiLAogICAgImRlc2NyaXB0aW9uIiA6ICJkZXNjcmlwdGlvbiIKICB9Cn0K
+{
+  "appDescription" : {
+    "message": "Free messaging any time, anywhere",
+    "description" : "description"
+  }
+}
